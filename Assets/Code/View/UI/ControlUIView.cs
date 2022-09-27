@@ -1,0 +1,35 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+
+namespace WORLDGAMEDEVELOPMENT
+{
+    public sealed class ControlUIView : MonoBehaviour
+    {
+        #region Fields
+
+        [SerializeField] private Button _buttonW;
+        [SerializeField] private Button _buttonS;
+        [SerializeField] private Button _buttonA;
+        [SerializeField] private Button _buttonD;
+        [SerializeField] private Button _buttonAccelerateUp;
+        [SerializeField] private Button _buttonAccelerateDown;
+        [SerializeField] private Button _buttonSwitchCam;
+        
+        #endregion
+
+
+        #region Properties
+
+        public Button ButtonW => _buttonW;
+        public Button ButtonS => _buttonS;
+        public Button ButtonA => _buttonA;
+        public Button ButtonD => _buttonD;
+        public Button ButtonAccelerateUp => _buttonAccelerateUp;
+        public Button ButtonAccelerateDown => _buttonAccelerateDown;
+        public Button ButtonSwitchCam => _buttonSwitchCam;
+
+        #endregion
+    }
+}
+

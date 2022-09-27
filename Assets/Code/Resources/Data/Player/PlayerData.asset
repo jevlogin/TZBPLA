@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2753ee06e4cca824891661cf7c5d9909, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  _playerStruct:
+    _prefab: {fileID: 7103863249120232477, guid: 6a72187fa9cf44d43b66fdb14fbc2b16, type: 3}
+    _flySpeed: 50
+    _isKinematicControl: 1
+    _yawAmmount: 50
+    _maxDegreePitch: 30
+    _maxDegreeRoll: 60
+    _smoothAngle: 0.7
+  _playerComponents:
+    TransformPlayer: {fileID: 7103863249120270397, guid: 6a72187fa9cf44d43b66fdb14fbc2b16, type: 3}
+    RigidbodyPlayer: {fileID: 7103863249116882791, guid: 6a72187fa9cf44d43b66fdb14fbc2b16, type: 3}
+    AirPlaneView: {fileID: 2448845975958673925, guid: 6a72187fa9cf44d43b66fdb14fbc2b16, type: 3}
