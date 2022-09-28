@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,7 +17,9 @@ namespace WORLDGAMEDEVELOPMENT
         [SerializeField] private Button _buttonAccelerateUp;
         [SerializeField] private Button _buttonAccelerateDown;
         [SerializeField] private Button _buttonSwitchCam;
-        
+        [SerializeField] private Button _buttonSwitchHint;
+        [SerializeField] private List<TextMeshProUGUI> _textMeshProUGUIs;
+
         #endregion
 
 
@@ -28,6 +32,8 @@ namespace WORLDGAMEDEVELOPMENT
         public Button ButtonAccelerateUp => _buttonAccelerateUp;
         public Button ButtonAccelerateDown => _buttonAccelerateDown;
         public Button ButtonSwitchCam => _buttonSwitchCam;
+        public Button ButtonSwitchHint => _buttonSwitchHint;
+        public List<TextMeshProUGUI> TextMeshProUGUIs => _textMeshProUGUIs;
 
         #endregion
     }
